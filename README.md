@@ -172,14 +172,15 @@ The tests run two traces:
 
 ## Citation
 
-If you use this package in your research, please cite the ICtoolS paper:
+If you use this package in your research, please cite the ICtoolS paper, published at
+the Industrial Control System Security (ICSS) Workshop 2026, co-located with ACSAC:
 
 ```bibtex
 @inproceedings{ictools,
   title     = {{ICtoolS}: Fingerprinting {ICS} Tools to Characterize Honeypot Interactions},
   author    = {Kempinski, Stash and Asanache, Victor and Lahaije, Lucas and Schlett, Kristopher and Sciancalepore, Savio and Zambon, Emmanuele and Zannone, Nicola},
-  booktitle = {TODO},
-  year      = {TODO}
+  booktitle = {Industrial Control System Security Workshop (ICSS), co-located with the Annual Computer Security Applications Conference (ACSAC)},
+  year      = {2026}
 }
 ```
 
