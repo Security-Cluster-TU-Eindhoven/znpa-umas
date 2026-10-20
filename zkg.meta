@@ -1,0 +1,10 @@
+[package]
+script_dir = scripts
+test_command = cd tests && btest -c btest.cfg
+summary = Logs Schneider Electric UMAS (Modbus function code 90) messages to modbus_umas.log.
+description = Extends Zeek's Modbus analyzer with logging of Schneider Electric UMAS (Modbus function code 90) function codes and session keys. Developed at Eindhoven University of Technology as a dependency of the ICtoolS honeypot interaction fingerprinting framework.
+credits = Kristopher Schlett, Emmanuele Zambon. Eindhoven University of Technology.
+tags = zeek scripting, protocol analyzer, log writer, modbus, umas, schneider electric, ics, scada, ot
+depends =
+  zkg >=2.10
+  zeek >=4.2.0

@@ -1,0 +1,6 @@
+build
+.state
+.idea/
+.DS_Store
+tests/.tmp/
+tests/.btest.failed.dat
