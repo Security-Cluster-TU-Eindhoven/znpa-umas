@@ -62,7 +62,7 @@ v1.x:
 ```bash
 zkg install icsnpp-modbus --version v1.0.0
 zkg install https://github.com/Security-Cluster-TU-Eindhoven/znpa-umas
-zeek -C -r capture.pcap icsnpp/modbus znpa-umas
+zeek -C -r capture.pcap icsnpp-modbus znpa-umas
 ```
 
 ## The `modbus_umas.log` file
